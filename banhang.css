@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 980px;
+    margin: auto;
+    padding: 5px;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+#logo{
+    text-align: center;
+}
+
+
+
+#banner {
+    margin-top: 2px;
+}
+
+#menu {
+    width: 100%;
+    height: 50px;
+    background-color: #336622;
+}
+
+#menu ul {
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tittle {
+    margin-top: 10px;
+    height: 80px;
+}
+
+.tittle h1 {
+    text-align: center;
+    color: white;
+}
+
+
+#menu ul li {
+    margin: 0px 20px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li:hover {
+    background-color: black;
+}
+
+.tittle{
+    text-align: center;
+}
+.tl2{
+    position: relative;
+}
+
+
+.giohang{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    background-image: linear-gradient(#52a337, rgb(21, 219, 51));
+    padding: 10px;
+    z-index: 5;
+}
+
+.giohang img {
+    float: left;
+    margin-right: 5px;
+}
+
+.giohang a{
+    text-decoration: none;
+}
+
+.giohang span {
+    font-weight: bold;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    line-height: 40px;
+}
+
+
+.boxsp {
+    float: left;
+    min-height: 300px;
+    width: calc(32% - 5px);
+    border: 1px #EEE solid;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+}
+
+.boxsp input {
+    width: 40px;
+    position: absolute;
+    right: 5px;
+    bottom: 85px;
+    border-radius: 5px;
+    border: 1px #52a337 solid;
+}
+
+.boxsp button {
+    width: 80px;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    background-color: #52a337;
+    border-radius: 5px;
+    border: 1px #52a337 solid;
+    padding: 10px 10px;
+    color: #EEE;
+}
+
+.boxsp a{
+    color: black;
+    text-decoration: none;
+}
+
+.boxsp .img {
+    max-width: 230px;
+    min-height: 230px;
+    text-align: center;
+}
+
+.img img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* giohang */
+
+.tth2{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #52a337;
+    padding: 10px;
+}
+
+th,
+td {
+    border: 1px #52a337 solid;
+    text-align: center;
+}
+
+td div {
+    width: calc(100% - 20px);
+    padding: 0px 10px;
+    text-align: right;
+}
+
+th div {
+    width: calc(100% - 10px);
+    padding: 0px 5px;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+td img {
+    width: 100px;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mr {
+    margin-right: 2%;
+}
